@@ -1,0 +1,21 @@
+{
+  "dex_api_url": "https://api.dexscreener.com/latest/dex/tokens/",
+  "pocket_universe_api_url": "https://api.pocketuniverse.ai/v1/volume/check",
+  "pocket_universe_api_key": "your_api_key_here",
+  "rugcheck_api_url": "https://rugcheck.xyz/api/check",
+  "trojan_api_url": "https://api.trojan.trade/v1/order",
+  "trojan_api_key": "your_trojan_api_key_here",
+  "telegram_bot_token": "your_telegram_bot_token_here",
+  "telegram_chat_id": "your_telegram_chat_id_here",
+  "database_name": "dex_data.db",
+  "update_interval": 300,
+  "filters": {
+    "min_liquidity": 10000,
+    "max_price_change": 1000,
+    "min_volume": 50000
+  },
+  "blacklist": {
+    "coins": ["RUGCOIN", "SCAMTOKEN"],
+    "devs": ["0xBadDevAddress1", "0xBadDevAddress2"]
+  }
+}
